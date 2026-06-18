@@ -1,0 +1,18 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# blueprawn_ai_sim — Dependencies
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Core
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.18
+
+# Configuration
+pydantic-settings>=2.7.0
+
+# OpenAI (Whisper transcription + GPT responses)
+# Only required when USE_LIVE_AI=true
+openai>=1.60.0
+
+# WebSocket Support (Required for Vercel deployment)
+websockets>=14.0

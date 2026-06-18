@@ -1,0 +1,19 @@
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+audio_endpoint.log
+
+# Uploads / recordings
+uploads/
+*.webm
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
